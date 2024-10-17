@@ -21,3 +21,4 @@ These are not directly covered in the book, but the standard library has a great
 
 - [conversions](https://doc.rust-lang.org/std/convert/index.html)
 - [`FromStr` trait](https://doc.rust-lang.org/std/str/trait.FromStr.html)
+      ok   

@@ -199,8 +199,8 @@ mod tests {
 		println!("list a {} list b {}", list_a,list_b);
 		let mut list_c = LinkedList::<i32>::merge(list_a,list_b);
 		println!("merged List is {}", list_c);
-		for i in 0..target_vec.len(){
+		for i in 0..target_vec.len(){ 
 			assert_eq!(target_vec[i],*list_c.get(i as i32).unwrap());
 		}
 	}
-}
+}  
